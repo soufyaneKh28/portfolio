@@ -17,10 +17,8 @@ const Navigationbar = () => {
   return (
     <header>
       <div className="container px-3    rounded-full ">
-        <nav className=" flex justify-between  ">
-          <div className=" w-20">
-            <img src={logo} alt="logos" />
-          </div>
+        <nav className=" flex justify-between items-center py-2  ">
+          <div className=" w-20 text-2xl font-bold">S-k</div>
 
           <div className="flex items-center">
             <AnchorTemporaryDrawer />

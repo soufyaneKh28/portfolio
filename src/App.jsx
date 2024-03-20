@@ -1,14 +1,12 @@
 import { useState } from "react";
-import { Navigationbar, Hero } from "./components";
+import { Navigationbar, Hero, About } from "./components";
 function App() {
   return (
     <>
       <Navigationbar />
 
       <Hero />
-      <section>
-        <div id="About"></div>
-      </section>
+      <About />
     </>
   );
 }
