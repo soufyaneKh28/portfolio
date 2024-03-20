@@ -3,7 +3,7 @@ import { arrow, me, vector } from "../assets";
 
 const Hero = () => {
   return (
-    <section className="mt-5 py-20">
+    <section className="mt-5 py-20 scroll-smooth">
       <div className=" container pt-3 px-3 ">
         <div className=" text-center flex-col flex justify-center items-center">
           <div className="relative">
