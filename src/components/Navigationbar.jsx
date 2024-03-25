@@ -1,24 +1,14 @@
 import React from "react";
-import { logo, menu } from "../assets";
+import { menu } from "../assets";
 
-import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
-import Button from "@mui/material/Button";
-import List from "@mui/material/List";
-import Divider from "@mui/material/Divider";
-import ListItem from "@mui/material/ListItem";
-import ListItemButton from "@mui/material/ListItemButton";
-import ListItemIcon from "@mui/material/ListItemIcon";
-import ListItemText from "@mui/material/ListItemText";
-import InboxIcon from "@mui/icons-material/MoveToInbox";
-import MailIcon from "@mui/icons-material/Mail";
 
 const Navigationbar = () => {
   return (
-    <header>
-      <div className="container px-3    rounded-full ">
+    <header className="bg-main_dark  ">
+      <div className="container px-3    ">
         <nav className=" flex justify-between items-center py-2  ">
-          <div className=" w-20 text-2xl font-bold">S-k</div>
+          <div className=" w-20 text-2xl font-bold text-white">S-k</div>
 
           <div className="flex items-center">
             <AnchorTemporaryDrawer />

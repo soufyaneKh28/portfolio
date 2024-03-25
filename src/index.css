@@ -3,15 +3,15 @@
 @tailwind utilities;
 
 :root {
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+
+
 }
 
 body {
   margin: 0 auto;
-  font-family: "Poppins", sans-serif;
+  font-family: "Proza Libre", sans-serif;
   scroll-behavior: smooth;
+
 }
 
 li a {
