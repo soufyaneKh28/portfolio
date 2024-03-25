@@ -27,7 +27,7 @@ const Slider = () => {
   ];
   return (
     <main className="  flex flex-col justify-center  overflow-hidden">
-      <div className=" bg-secondary_color w-full py-[25px] inline-flex flex-nowrap">
+      <div className=" bg-secondary_color w-full py-[20px] inline-flex flex-nowrap">
         <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
           {images.map((img) => (
             <>
@@ -35,12 +35,13 @@ const Slider = () => {
                 <>
                   <li key={img.alt}>
                     <img
+                      className="w-[130px] md:w-[150px]"
                       src={img.img === star ? null : img.img}
                       alt={img.alt === star ? null : img.alt}
                     />
                   </li>
                   <li>
-                    <img src={star} alt={"star"} />
+                    <img className="w-[15px]" src={star} alt={"star"} />
                   </li>
                 </>
               )}
@@ -54,12 +55,13 @@ const Slider = () => {
                 <>
                   <li key={img.alt}>
                     <img
+                      className="w-[130px] md:w-[150px]"
                       src={img.img === star ? null : img.img}
                       alt={img.alt === star ? null : img.alt}
                     />
                   </li>
                   <li>
-                    <img src={star} alt={"star"} />
+                    <img className="w-[15px]" src={star} alt={"star"} />
                   </li>
                 </>
               )}
