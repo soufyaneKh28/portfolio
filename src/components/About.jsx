@@ -87,18 +87,18 @@ const About = () => {
   return (
     <section id="About" className="  rounded-3xl p-3  scroll-smooth ">
       <div className="container py-6 flex flex-col md:flex-row items-center justify-between">
-        <div className="about ">
+        <div className="about flex flex-col items-center">
           <div className="flex items-center">
             <div className=" h-1 w-6 bg-main_color " />
             <div className=" py-2 px-3 border-solid text-[24px] font-semibold text-main_dark">
               About Me
             </div>
           </div>
-          <h2 className=" text-[32px] md:text-[42px] max-w-[400px] font-bold">
+          <h2 className=" text-center text-[32px] md:text-[42px] max-w-[400px] font-bold">
             Who is <span className=" text-main_color">Soufyane Khalfallah</span>{" "}
             ?
           </h2>
-          <p className=" text-[16px] w-[350px] leading-7 mt-5  text-main_dark">
+          <p className=" text-center text-[16px] w-[350px] leading-7 mt-5  text-main_dark">
             Hey there! I'm Soufyane, a multidisciplinary creative soul
             passionate about weaving digital experiences and crafting visual
             stories. At 21 years old, I've embarked on a journey as a Front-End
@@ -111,7 +111,7 @@ const About = () => {
             Download CV
           </button>
         </div>
-        <div className="skills max-w-[400px] max-h-[350px] flex flex-wrap my-5">
+        <div className="skills max-w-[400px] max-h-[350px] flex flex-wrap my-5 justify-center mx-auto">
           {skills.map((skill) => (
             <div
               key={skill.alt}
