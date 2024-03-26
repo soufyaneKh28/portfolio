@@ -13,7 +13,7 @@ const Hero = () => {
               Hello!
             </div>
           </div>
-          <h1 className=" text-white text-[32px] md:text-[40px]  font-bold mt-3 leading-[55px]">
+          <h1 className=" text-white text-[32px] md:text-[40px]  font-bold mt-3 leading-[50px]">
             I'm <span className=" text-secondary_color">Soufyane</span>, <br />
             Front-end Developer and UI UX Designer
           </h1>
